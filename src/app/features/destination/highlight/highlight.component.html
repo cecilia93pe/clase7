@@ -1,0 +1,18 @@
+<section class="highlight">
+  <img class="highlight-image" src="{{selected.images.png}}">
+  <div class="highlight-content">
+    <app-tab [handleClick]="onClickTab" [active]="activeSection"></app-tab>
+    <h3 class="highlight-name">{{selected.name}}</h3>
+    <p class="highlight-description">{{selected.description}}</p>
+    <div class="features">
+      <div class="feature">
+        <p class="feature-name">avg. distance</p>
+        <p class="feature-value">{{selected.distance}}</p>
+      </div>
+      <div class="feature">
+        <p class="feature-name">est. travel time</p>
+        <p class="feature-value">{{selected.travel}}</p>
+      </div>
+    </div>
+  </div>
+</section>

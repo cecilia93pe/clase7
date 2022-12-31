@@ -1,0 +1,24 @@
+<app-layout [bgColor]="bgColor" (window:resize)="setBgImage()">
+  <app-header></app-header>
+  <div class="container">
+    <app-title [text]="title" [numberSection]="numberSection" ></app-title>
+    <section class="content">
+      <div class="crew-image-wrapper">
+        <img class="crew-image" height="223" src="./../../../../assets/images/crew/image-douglas-hurley.png" />
+      </div>
+      <div class="puntos puntos--responsive">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="crew-detail">
+        <h3 class="crew-speciality">commander</h3>
+        <h2 class="crew-name">Douglas Hurley</h2>
+        <p class="crew-description">
+          Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.
+        </p>
+        <div class="puntos puntos--desktop">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+  </div>
+</app-layout>

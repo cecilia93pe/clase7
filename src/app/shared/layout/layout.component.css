@@ -1,0 +1,7 @@
+.bg-hero {
+  height: 100vh;
+  background-color: var(--black);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}

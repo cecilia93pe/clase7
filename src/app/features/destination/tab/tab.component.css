@@ -1,0 +1,34 @@
+.tab {
+  max-width: 238px;
+  font-family: barlow-condensed;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0 auto 20px;
+}
+
+.tab-item {
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  padding-bottom: 12px;
+}
+
+.tab-item:not(:first-child) {
+  margin-left: 26px;
+}
+
+.tab-item--active {
+  color: var(--white);
+  border-bottom: 3px solid var(--white);
+}
+
+@media (min-width: 768px) {
+  .tab {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .tab {
+    margin-left: 0;
+  }
+}

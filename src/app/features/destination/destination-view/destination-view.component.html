@@ -1,0 +1,7 @@
+<app-layout [bgColor]="bgColor" (window:resize)="setBgImage()">
+  <app-header></app-header>
+  <div class="container">
+    <app-title [text]="title" [numberSection]="numberSection" ></app-title>
+    <app-highlight [destination] = "destinations"></app-highlight>
+  </div>
+</app-layout>

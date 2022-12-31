@@ -1,0 +1,29 @@
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+  font-family: barlow-condensed;
+  font-size: 16px;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 32px;
+}
+
+.title-number {
+  margin-right: 16px;
+  color: var(--gray-strong);
+}
+
+@media (min-width: 768px) {
+  .title {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+}
+

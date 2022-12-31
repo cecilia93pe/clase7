@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: bellefair;
+  src: url('src/assets/fonts/bellefier-regular.ttf');
+}
+
+@font-face {
+  font-family: barlow-condensed;
+  src: url('src/assets/fonts/barlow-condensed-regular.ttf');
+}
+
+@font-face {
+  font-family: barlow;
+  src: url('src/assets/fonts/barlow-regular.ttf');
+}
+
+:root {
+  --black: #0B0D17;
+  --violet-light: #D0D6F9;
+  --white: #FFFFFF;
+  --gray-light: #383B4B;
+  --gray-strong: #808082;
+}
+
+body {
+  color: var(--violet-light);
+  font-family: barlow;
+  font-size: 15px;
+}
+
+a {
+  color: var(--violet-light);
+  font-size: 15px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 18px;
+  }
+
+}

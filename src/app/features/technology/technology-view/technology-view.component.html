@@ -1,0 +1,30 @@
+<app-layout [bgColor]="bgColor" (window:resize)="setBgImage()">
+  <app-header></app-header>
+  <div class="container">
+    <app-title [text]="title" [numberSection]="numberSection" ></app-title>
+  </div>
+  <div class="tech-image-wrapper">
+    <img class="tech-image" src="./../../../../assets/images/technology/image-launch-vehicle-landscape.jpg" />
+  </div>
+  <div class="container">
+    <section class="content">
+      <div class="tech-nums">
+        <div class="num" id="num1">1</div>
+        <div class="num" id="num2">2</div>
+        <div class="num" id="num3">3</div>
+      </div>
+      <div class="tech-detail">
+        <p class="tech-terminology">THE TERMINOLOGY ...</p>
+        <h2 class="tech-name">LAUNCH VEHICLE</h2>
+        <p class="tech-description">
+          A launch vehicle or carrier rocket is a rocket-propelled vehicle
+          used to carry a payload from Earth's surface to space, usually to
+          Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful
+          in operation. Standing 150 metres tall, it's quite an awe-inspiring
+          sight on the launch pad!
+        </p>
+      </div>
+    <img class="tech-image--desktop" src="./../../../../assets/images/technology/image-launch-vehicle-portrait.jpg" />
+  </section>
+  </div>
+</app-layout>
